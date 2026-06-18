@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+
+# Sanal Ortam
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
