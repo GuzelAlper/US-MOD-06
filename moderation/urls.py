@@ -2,5 +2,6 @@ from django.urls import path
 from .views import ActiveBlockingReasonsList
 
 urlpatterns = [
-    path('product-blocking-reasons/', ActiveBlockingReasonsList.as_view(), name='product-blocking-reasons'),
+    # OpenAPI'nin tam olarak beklediği endpoint rotası:
+    path('api/v1/blocking-reasons/', ActiveBlockingReasonsList.as_view(), name='blocking-reasons-list'),
 ]
